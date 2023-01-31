@@ -1048,6 +1048,11 @@ video {
   padding-bottom: 2.5rem;
 }
 
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .pt-8 {
   padding-top: 2rem;
 }
@@ -1567,4 +1572,12 @@ video {
   }
 
   .lg\:leading-snug {
-    
+    line-height: 1.375;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:pt-28 {
+    padding-top: 7rem;
+  }
+}
