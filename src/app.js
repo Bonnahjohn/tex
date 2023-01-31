@@ -12,5 +12,5 @@ console.log(eachYear);
 // });
 
 document.querySelector("button").addEventListener("click", () => {
-  document.getElementById("r").classList.toggle("right-0");
+  document.getElementById("right").classList.toggle("right-0");
 });
