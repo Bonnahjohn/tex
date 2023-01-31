@@ -10,7 +10,7 @@
   </head>
   <body>
     <nav
-      class="items-center h-16 fixed w-full top-0 left-0 z-50 backdrop-blur-[50px] backdrop-brightness-200"
+      class="items-center h-16 fixed w-full top-0 left-0 z-50 backdrop-blur-lg bg-white opacity-70"
     >
       <div
         class="container flex justify-between lg:px-10 px-3 items-center h-16 mx-auto"
@@ -45,13 +45,16 @@
           </li>
         </ul>
 
-        <button class="focus:outline-none block lg:hidden px-0 mx-2">
+        <button
+          class="focus:outline-none block lg:hidden px-0 mx-2"
+          type="button"
+        >
           <div class="w-5 h-1 mb-1 bg-gray-500"></div>
           <div class="w-5 h-1 mb-1 bg-red-500"></div>
           <div class="w-5 h-1 bg-gray-500"></div>
 
           <div
-            class="absolute w-full top-[12vh] right-full h-screen delay-300 transition-all bg-gradient-to-br from-pink-400 via-lime-200 to-violet-400 py-5"
+            class="absolute w-full top-[12vh] right-full h-screen delay-500 transition-all bg-gradient-to-br from-pink-400 via-lime-200 to-violet-400 py-5"
             id="right"
           >
             <ul class="font-medium space-y-8 flex flex-col justify-between">
@@ -90,8 +93,8 @@
           class="relative bg-no-repeat bg-cover w-full h-[80vh]"
           style="
             background-image: linear-gradient(
-                rgba(0, 0, 0, 0.2),
-                rgba(0, 0, 0, 0.2)
+                rgba(0, 0, 0, 0.6),
+                rgba(0, 0, 0, 0.6)
               ),
               url(assets/hero.jpg);
           "
@@ -134,7 +137,9 @@
       <!--mmmmmmmmmmmmmmmmmmmmmmmmm underneath of the webbsite mmmmmmmmmmmmmmmmmmm -->
       <section class="container mx-auto lg:pt-20 px-5 md:pt-20 pt-12 md:px-10">
         <div class="grid grid-cols-2 gap-16">
-          <h2 class="lg:text-5xl font-serif lg:leading-snug md:text-3xl">
+          <h2
+            class="lg:text-5xl font-serif lg:leading-snug md:text-5xl text-3xl"
+          >
             Learning Begins <br />
             With Us
           </h2>
@@ -200,22 +205,30 @@
           Champion School at a Glance
         </h3>
         <div
-          class="flex lg:justify-around lg:flex-row mb-14 md:48 lg:mb-0 pt-6 md:justify-around md:flex-row flex-row flex-wrap justify-between md:flex-nowrap"
+          class="flex lg:justify-around lg:flex-row mb-14 md:48 lg:mb-0 pt-6 md:justify-around md:flex-row flex-row justify-between md:flex-nowrap"
         >
           <div class="">
-            <h3 class="text-7xl font-bold font-mono text-[#4648cf]">2k+</h3>
+            <h3 class="lg:text-7xl font-bold font-mono text-[#4648cf] text-2xl">
+              2k+
+            </h3>
             <p>Current Enrollment</p>
           </div>
           <div>
-            <h3 class="text-7xl font-bold font-sans text-[#4648cf]">90+</h3>
+            <h3 class="lg:text-7xl font-bold font-sans text-[#4648cf] text-2xl">
+              90+
+            </h3>
             <p>Qualified staff</p>
           </div>
           <div>
-            <h3 class="text-7xl font-bold font-sans text-[#4648cf]">80+</h3>
+            <h3 class="lg:text-7xl font-bold font-sans text-[#4648cf] text-2xl">
+              80+
+            </h3>
             <p>Clubs & Activities</p>
           </div>
           <div>
-            <h3 class="text-7xl font-bold font-sans text-[#4648cf]">100+</h3>
+            <h3 class="lg:text-7xl font-bold font-sans text-[#4648cf] text-2xl">
+              100+
+            </h3>
             <p>Active PTFA Members</p>
           </div>
         </div>
@@ -250,7 +263,7 @@
         <div
           class="container mx-auto lg:mt-96 px-10 md:pt-2 pt-0 md:mt-[60%] mt-0 lg:20"
         >
-          <div class="py-20">
+          <div class="lg:py-20 py-5 md:py-2">
             <span class="text-[#4648cf] text-3xl"
               ><i class="fa fa-quote-left"></i
             ></span>
@@ -436,27 +449,30 @@
             Wish to know more about admissions and <br />
             updates? Subscribe now!
           </h5>
-          <div
-            class="flex justify-center py-10 md:space-x-2 md:flex-row flex-col space-x-3 md:space-y-0 space-y-2"
-          >
-            <div>
-              <label for="email"
-                ><input
-                  type="email"
-                  name="email"
-                  id=""
-                  placeholder="Email Address"
-                  class="md:w-[430px] py-2 pl-3 shadow-2xl w-[330px] md:ml-0 ml-3"
-              /></label>
-            </div>
-            <div>
-              <button
-                type="submit"
-                class="bg-white px-10 py-2 text-[#4648cf] font-medium rounded-sm shadow-2xl"
-              >
-                Subscribe
-              </button>
-            </div>
+          <div>
+            <form
+              action=""
+              class="flex justify-center py-10 md:space-x-2 md:flex-row flex-col space-x-2 md:space-y-0 space-y-2"
+            >
+              <div class="md:px-0 px-5">
+                <label for="email"
+                  ><input
+                    type="email"
+                    name="email"
+                    id=""
+                    placeholder="Email Address"
+                    class="md:w-[430px] py-2 pl-3 shadow-2xl md:ml-0 ml-0 w-full"
+                /></label>
+              </div>
+              <div>
+                <button
+                  type="submit"
+                  class="bg-white md:px-10 py-2 text-[#4648cf] font-medium rounded-sm shadow-2xl w-[92%] md:ml-0 ml-3"
+                >
+                  Subscribe
+                </button>
+              </div>
+            </form>
           </div>
         </div>
       </section>

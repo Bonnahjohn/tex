@@ -3,8 +3,6 @@ const eachYear = document.getElementById("date");
 let get = new Date();
 eachYear.innerHTML = get.getFullYear();
 
-console.log(eachYear);
-
 // const btn = document.getElementById("play");
 // btn.addEventListener("click", () => {
 //   document.querySelector("#h").classList.toggle("md:flex");
@@ -12,5 +10,5 @@ console.log(eachYear);
 // });
 
 document.querySelector("button").addEventListener("click", () => {
-  document.getElementById("right").classList.toggle("right-0");
+  document.getElementById("right").classList.toggle("left-0");
 });
