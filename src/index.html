@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>learning</title>
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.min.css" />
+    <link rel="stylesheet" href="prod.css" />
+  </head>
+  <body>
+    <nav
+      class="items-center h-16 fixed w-full top-0 left-0 z-50 backdrop-blur-[50px] backdrop-brightness-200"
+    >
+      <div
+        class="container flex justify-between lg:px-10 px-3 items-center h-16 mx-auto"
+      >
+        <div>
+          <span class="leading-3 text-lg">Champion <br />School</span>
+        </div>
+        <!--mmmmmmmmmmmmmmmmmmmmm  menus in the nav mmmmmmmmmmmmmmmmmmmm-->
+        <ul class="font-medium lg:flex space-x-8 hidden">
+          <li><a href="#" class="text-[#4847d0]">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Academics</a></li>
+          <li><a href="#">Activities</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <!--mmmmmmmmmmmmmmmmmmmmm icon menus in the nav mmmmmmmmmmmmmmmmmmmm-->
+        <ul class="lg:flex space-x-3 hidden">
+          <li>
+            <a href="#" class="text-[#4847d0] text-sm"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#" class="text-[#4847d0] text-sm"
+              ><i class="fab fa-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#" class="text-[#4847d0] text-sm"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </li>
+        </ul>
+
+        <button class="focus:outline-none block lg:hidden px-4 mx-2">
+          <div class="w-5 h-1 mb-1 bg-gray-500"></div>
+          <div class="w-5 h-1 mb-1 bg-red-500"></div>
+          <div class="w-5 h-1 bg-gray-500"></div>
+
+          <div
+            class="absolute w-full top-[12vh] right-full h-screen delay-300 transition-all bg-yellow-50 py-4"
+            id="r"
+          >
+            <ul class="font-medium space-y-8 flex flex-col justify-between">
+              <li><a href="#" class="text-[#4847d0]">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Academics</a></li>
+              <li><a href="#">Activities</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+            <!--mmmmmmmmmmmmmmmmmmmmm icon menus in the nav mmmmmmmmmmmmmmmmmmmm-->
+            <ul class="flex space-y-3 pt-8 flex-col">
+              <li>
+                <a href="#" class="text-[#4847d0] text-sm"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="text-[#4847d0] text-sm"
+                  ><i class="fab fa-facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="text-[#4847d0] text-sm"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </button>
+      </div>
+    </nav>
+    <!-- mmmmmmmmmmmmmmmmmmmmmmm   hero section of the website mmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
+    <main class="select-none overflow-x-hidden">
+      <section class="pt-16">
+        <div
+          class="relative bg-no-repeat bg-cover w-full h-[80vh]"
+          style="
+            background-image: linear-gradient(
+                rgba(0, 0, 0, 0.2),
+                rgba(0, 0, 0, 0.2)
+              ),
+              url(assets/hero.jpg);
+          "
+        >
+          <!-- container section on the bg-image -->
+          <div
+            class="relative container mx-auto lg:pt-36 px-5 md:pt-20 pt-12 md:px-10"
+          >
+            <div class="absolute">
+              <div class="bg-white h-0.5 w-14 mb-10"></div>
+
+              <h1
+                class="text-xl font-serif text-white tracking-wide lg:text-7xl md:text-3xl"
+              >
+                The Champion <br />School Texas
+              </h1>
+              <p
+                class="whitespace-normal leading-5 text-white mb-4 lg:leading-7 md:leading-6 lg:whitespace-pre-line md:whitespace-pre-line md:flex hidden lg:flex"
+              >
+                This is where we teach students skills they need to transform
+                themselves,others,and our global communities.
+              </p>
+              <!-- on mobile screens only -->
+              <p
+                class="whitespace-normal leading-5 text-white mb-4 lg:leading-7 md:leading-6 lg:whitespace-pre-line md:whitespace-pre-line flex md:hidden"
+              >
+                This is where we teach students skills they <br />
+                need to transform themselves,others,and our global communities.
+              </p>
+              <a
+                href="#"
+                role="button"
+                class="bg-white text-[#4648cf] px-6 py-2 rounded-sm font-bold"
+                >Our Academics</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--mmmmmmmmmmmmmmmmmmmmmmmmm underneath of the webbsite mmmmmmmmmmmmmmmmmmm -->
+      <section class="container mx-auto lg:pt-20 px-5 md:pt-20 pt-12 md:px-10">
+        <div class="grid grid-cols-2 gap-16">
+          <h2 class="lg:text-5xl font-serif lg:leading-snug md:text-3xl">
+            Learning Begins <br />
+            With Us
+          </h2>
+          <div class="bg-[#4648cf] h-0.5 w-14 mb-10 my-auto"></div>
+        </div>
+
+        <div class="grid lg:grid-cols-2 lg:gap-16 md:gap-12 pt-8 gap-10">
+          <div class="">
+            <p class="whitespace-nowrap text-base lg:flex hidden md:flex">
+              We,at Champion School offer supportive and inspirational <br />
+              environments for young enquiring minds to learn and grow with
+              us.our <br />
+              passion for learning means we achieve more than outstanding
+              results. <br />
+              We strive to build confident and creative thinkers and aim at
+              delivery <br />
+              an education that is truly relevant to their future.
+            </p>
+            <!-- on mobile screen -->
+            <p class="text-base whitespace-normal lg:hidden flex md:hidden">
+              We,at Champion School offer supportive and inspirational
+              environments for young enquiring minds to learn and grow with
+              us.our passion for learning means we achieve more than outstanding
+              results. We strive to build confident and creative thinkers and
+              aim at delivery an education that is truly relevant to their
+              future.
+            </p>
+          </div>
+          <div class="">
+            <p class="whitespace-nowrap text-base mb-8 lg:flex md:flex hidden">
+              We are an early learning academy forcused on social-emotional
+              <br />
+              development and early literacy and numeracy. Our students walks
+              out <br />
+              with the character and confidence to make their mark in the world,
+              <br />
+              equipment with the knowledge and real-world skills that take them
+              way <br />
+              ahead in the industry they may serve
+            </p>
+            <!-- on  mobile screens only -->
+            <p
+              class="whitespace-normal text-base mb-8 lg:hidden md:hidden flex"
+            >
+              We are an early learning academy forcused on social-emotional
+              development and early literacy and numeracy. Our students walks
+              out with the character and confidence to make their mark in the
+              world, equipment with the knowledge and real-world skills that
+              take them way ahead in the industry they may serve
+            </p>
+            <a
+              href="#"
+              class="font-bold underline decoration-blue-100 decoration-from-font"
+              >Know More About Us</a
+            >
+          </div>
+        </div>
+      </section>
+      <div class="container mx-auto lg:pt-20 px-10 md:pt-20 pt-12"><hr /></div>
+      <!--mmmmmmmmmmmmmmmmmmmmmmmmmmmm curiculum rate mmmmmmmmmmmmmmmmmmmm -->
+      <section class="container mx-auto lg:pt-20 px-5 md:pt-20 pt-12 md:px-10">
+        <h3 class="text-center font-bold text-lg">
+          Champion School at a Glance
+        </h3>
+        <div
+          class="flex lg:justify-around lg:flex-row mb-14 md:48 lg:mb-0 pt-6 md:justify-around md:flex-row flex-row flex-wrap justify-between md:flex-nowrap"
+        >
+          <div class="">
+            <h3 class="text-7xl font-bold font-mono text-[#4648cf]">2k+</h3>
+            <p>Current Enrollment</p>
+          </div>
+          <div>
+            <h3 class="text-7xl font-bold font-sans text-[#4648cf]">90+</h3>
+            <p>Qualified staff</p>
+          </div>
+          <div>
+            <h3 class="text-7xl font-bold font-sans text-[#4648cf]">80+</h3>
+            <p>Clubs & Activities</p>
+          </div>
+          <div>
+            <h3 class="text-7xl font-bold font-sans text-[#4648cf]">100+</h3>
+            <p>Active PTFA Members</p>
+          </div>
+        </div>
+      </section>
+      <section class="bg-[#f6f7fc] md:mt-20 mt-0">
+        <div
+          class="container mx-auto lg:mt-96 px-5 md:pt-20 pt-0 relative md:10"
+        >
+          <img
+            src="assets/play.jpg"
+            alt=""
+            class="md:-my-96 lg:w-full md:h-[600px] rounded-md w-[100vw] -my-0 md:flex hidden"
+            id="s"
+          />
+          <!-- <img
+            src="assets/hero.jpg"
+            alt=""
+            class="w-full h-full hidden"
+            id="h"
+          /> -->
+          <div class="absolute lg:top-[5%] lg:left-1/2 left-1/2 top-1/2">
+            <button
+              class="bg-white w-16 h-16 rounded-full text-xl text-[#4648cf] ring-2 md:inline hidden"
+              id="play"
+            >
+              <i
+                class="fa fa-play animate-bounce delay-500 hover:animate-none"
+              ></i>
+            </button>
+          </div>
+        </div>
+        <div
+          class="container mx-auto lg:mt-96 px-10 md:pt-2 pt-0 md:mt-[60%] mt-0 lg:20"
+        >
+          <div class="py-20">
+            <span class="text-[#4648cf] text-3xl"
+              ><i class="fa fa-quote-left"></i
+            ></span>
+            <p
+              class="italic lg:text-5xl lg:whitespace-normal pt-6 text-base md:text-xl whitespace-nowrap"
+            >
+              We aim at inspiring our students to dream <br />
+              more,learn more,do more, and become more <br />
+              in their respective journeys of life.
+            </p>
+            <br /><br />
+            <p class="lg:text-3xl font-semibold font-serif text-xl mb-6">
+              Jonathan Doe - Headmaster
+            </p>
+          </div>
+        </div>
+      </section>
+      <!--mmmmmmmmmmmmmmmmm cards section part of the website mmmmmmmmmmmmmmmmmmmmmm -->
+      <section class="container mx-auto lg:pt-24 px-5 md:pt-24 pt-6 md:px-10">
+        <div class="grid lg:grid-cols-2 lg:gap-20 md:grid-cols-2">
+          <div class="">
+            <h3 class="text-5xl leading-snug font-serif">
+              Curriculum <br />
+              Overview
+            </h3>
+          </div>
+          <div class="">
+            <div class="bg-[#4648cf] h-1.5 w-14 mb-10 my-auto"></div>
+
+            <p class="whitespace-normal text-lg">
+              The Champion School aims at offering all our students a broad and
+              balanced curriculum that provides rewarding and stimulating
+              activities to prepare them for the best social and cultural life.
+            </p>
+          </div>
+        </div>
+        <!--mmmmmmmmmmmmmmmmmmmmmmm the six cards  in the card section mmmmmmmmmmmmmmmmmmmmmmmmmmm-->
+        <div
+          class="grid lg:grid-cols-3 lg:gap-20 pt-20 md:grid-cols-3 md:gap-20 space-y-10 md:space-y-0"
+        >
+          <div class="grid-flow-row">
+            <img
+              src="assets/computer.jpg"
+              alt="computer science"
+              class="h-[50vh] w-full rounded-2xl"
+            />
+            <h3 class="text-3xl pt-4 text-left font-serif">Computer Science</h3>
+            <p class="text-[15px] whitespace-normal py-2">
+              Hands on experience with the latest programming languages and
+              technology
+            </p>
+          </div>
+          <div class="">
+            <img
+              src="assets/art.jpg"
+              alt="computer science"
+              class="h-[50vh] w-full rounded-2xl"
+            />
+            <h3 class="text-3xl pt-4 text-left font-serif">Fine Arts</h3>
+            <p class="text-[15px] whitespace-normal py-2">
+              Giving wings to the artists who'd like to take it up as a career
+              or just a hobby.
+            </p>
+          </div>
+          <div class="">
+            <img
+              src="assets/hum.jpg"
+              alt="computer science"
+              class="h-[50vh] w-full rounded-2xl"
+            />
+            <h3 class="text-3xl pt-4 text-left font-serif">Humanities</h3>
+            <p class="text-[15px] whitespace-normal py-2">
+              They study of ancient and modern languages, philosophy, history,
+              and more.
+            </p>
+          </div>
+        </div>
+        <div
+          class="grid lg:grid-cols-3 lg:gap-20 pt-8 md:grid-cols-3 md:gap-20 space-y-10 md:space-y-0"
+        >
+          <div class="">
+            <img
+              src="assets/science.jpg"
+              alt="computer science"
+              class="h-[50vh] w-full rounded-2xl"
+            />
+            <h3 class="text-3xl pt-4 text-left font-serif">Science</h3>
+            <p class="text-[15px] whitespace-normal py-2">
+              they study that encouraged scientific reasoning, discoveries and
+              inventions.
+            </p>
+          </div>
+          <div class="">
+            <img
+              src="assets/maths.jpg"
+              alt="computer science"
+              class="h-[50vh] w-full rounded-2xl"
+            />
+            <h3 class="text-3xl pt-4 text-left font-serif">Mathematics</h3>
+            <p class="text-[15px] whitespace-normal py-2">
+              Understand the game of numbers and logic to solve real-world
+              prroblems
+            </p>
+          </div>
+          <div class="">
+            <img
+              src="assets/lang.jpg"
+              alt="computer science"
+              class="h-[50vh] w-full rounded-2xl"
+            />
+            <h3 class="text-3xl pt-4 text-left font-serif">Languages</h3>
+            <p class="text-[15px] whitespace-normal py-2">
+              Learning more modes of communication from different parts of the
+              world.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!--mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm our co-curricular section mmmmmmmmmmmmmmmmmmmmmmmmm-->
+      <section class="container mx-auto lg:pt-20 px-5 md:pt-20 pt-6 md:px-10">
+        <div
+          class="grid lg:grid-cols-2 lg:gap-20 pt-20 md:grid-cols-2 md:gap-20 space-y-10 md:space-y-0"
+        >
+          <div
+            class="col-span-1 md:col-span-2 lg:col-span-1 lg:order-1 md:order-2 order-2 pt-6 lg:pt-0 md:pt-0"
+          >
+            <img
+              src="assets/curricular.jpg"
+              alt="co-curricular  image"
+              class="w-full h-full rounded-2xl"
+            />
+          </div>
+          <div
+            class="col-span-1 md:col-span-2 lg:col-span-1 lg:order-2 md:order-1 order-1"
+          >
+            <h3 class="text-5xl leading-snug font-serif">
+              Our Co-curricular <br />
+              Activities
+            </h3>
+            <div class="bg-[#4648cf] h-1.5 w-14 my-10"></div>
+            <ul class="list-inside list-disc space-y-8">
+              <li class="text-[#4648cf] text-3xl">
+                <h4 class="text-2xl font-semibold text-black">Athletics</h4>
+                <p class="text-lg text-[rgba(8,0,5,0.4)]">
+                  Our students are passionate about sports and althletics and
+                  have the freedom to choose the one they like and wish to take
+                  up.
+                </p>
+              </li>
+              <li class="text-[#4648cf] text-3xl">
+                <h4 class="text-2xl font-semibold text-black">
+                  In-house Publications
+                </h4>
+                <p class="text-lg text-[rgba(8,0,5,0.4)]">
+                  We have several writers who are encouraged to come up with
+                  creations that are regularly published in our in-house
+                  magazines.
+                </p>
+              </li>
+              <li class="text-[#4648cf] text-3xl">
+                <h4 class="text-2xl font-semibold text-black">
+                  Performing Arts & Music
+                </h4>
+                <p class="text-lg text-[rgba(8,0,5,0.4)]">
+                  With professionals on board, we take pride in training our
+                  students in art forms like dance, drama, painting and more.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!--mmmmmmmmmmmmmmmmmmmmmm contact us form mmmmmmmmmmmmmmmmmmmmmmmm -->
+      <section
+        class="md:container mx-auto lg:mt-28 px-0 md:mt-28 mt-28 md:px-10"
+      >
+        <div class="bg-[#4647d7] py-14">
+          <div class="bg-white mx-auto h-0.5 w-14 my-10"></div>
+          <h5
+            class="text-center lg:text-5xl lg:whitespace-normal space-x-28 text-white font-serif md:text-3xl md:whitespace-normal text-lg"
+          >
+            Wish to know more about admissions and <br />
+            updates? Subscribe now!
+          </h5>
+          <div
+            class="flex justify-center py-10 md:space-x-2 md:flex-row flex-col space-x-3 md:space-y-0 space-y-2"
+          >
+            <div>
+              <label for="email"
+                ><input
+                  type="email"
+                  name="email"
+                  id=""
+                  placeholder="Email Address"
+                  class="md:w-[430px] py-2 pl-3 shadow-2xl w-[330px] md:ml-0 ml-3"
+              /></label>
+            </div>
+            <div>
+              <button
+                type="submit"
+                class="bg-white px-10 py-2 text-[#4648cf] font-medium rounded-sm shadow-2xl"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--mmmmmmmmmmmmmmmmmmmm footer part of the website showing the essential features  mmmmmmmmmmmmmmmm-->
+    <footer class="bg-[#f6f7fc]">
+      <div
+        class="container mx-auto lg:mt-32 px-5 md:mt-20 mt-12 md:px-10 lg:pt-20 md:pt-20 xl:pt-28 pt-12"
+      >
+        <div class="grid md:grid-cols-3 gap-6">
+          <div class="">
+            <h6 class="text-3xl font-serif">The Champion School Texas</h6>
+            <p class="whitespace-pre-line text-base">
+              1234 Demo Ave, Austin, Tx 56789, <br />United State
+            </p>
+          </div>
+          <div class="text-center whitespace-pre-line text-base -mt-6">
+            <h6 class="text-3xl text-center font-serif">Main Office</h6>
+            <a
+              href="tel:+233554308135"
+              class="text-center whitespace-pre-line text-base"
+              >+1 123-456 7890</a
+            >
+            <p class="text-center whitespace-normal text-base">
+              8:00am - 4:00pm.
+            </p>
+          </div>
+          <div class="">
+            <h6 class="text-3xl text-center font-serif">Attendance</h6>
+          </div>
+        </div>
+      </div>
+      <nav
+        class="lg:flex flex-row justify-around items-center w-full pt-16 hidden"
+      >
+        <div
+          class="container flex justify-between px-10 items-center h-16 mx-auto"
+        >
+          <div>
+            <span class="leading-3 text-lg">Champion <br />School</span>
+          </div>
+          <!--mmmmmmmmmmmmmmmmmmmmm  menus in the nav mmmmmmmmmmmmmmmmmmmm-->
+          <ul class="font-medium flex space-x-8">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Academics</a></li>
+            <li><a href="#">Activities</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <!--mmmmmmmmmmmmmmmmmmmmm icon menus in the nav mmmmmmmmmmmmmmmmmmmm-->
+          <ul class="flex space-x-3">
+            <li>
+              <a href="#" class="text-[#4847d0] text-sm"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="text-[#4847d0] text-sm"
+                ><i class="fab fa-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="text-[#4847d0] text-sm"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <p class="text-center pt-3">
+        Copyright &copy; <span id="date">2022</span> Tenace technologies |
+        Powered by Bonnah John
+      </p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
